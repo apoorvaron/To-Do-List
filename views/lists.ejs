@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+
+    <div id="heading"class="box">
+
+        <h1>its <%= kindOfDay %></h1>
+    </div>
+
+    <div class="box">
+
+            <% for(var i=0;i<listItems.length;i++){%>
+                <div class="item">
+                    <input type="checkbox" >
+                    <p><%= listItems[i] %></p>
+                </div>
+            
+            <%} %>
+
+    <form class="item" action="/" method="POST">
+        <input type="text" name="newItem" placeholder="New Item" autocomplete="off"/>
+        <button type="submit" name="button">+</button>
+      </form>
+    </div>
+
+
+  </body>
+</html>
