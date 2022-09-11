@@ -1,4 +1,5 @@
-1) download zip
-2) Open terminal and change directory to "cd /Users/apoorv/Downloads/To-Do-List-main/"
-3) run "node app.js"
-4) Open Browser and Hit localhost:3000/
+-  Install Node version 
+-  Download zip & unzip it 
+-  Open terminal/cmd and change directory to " /To-Do-List-main"
+-  Run "node app.js"
+-  Open Browser and Hit localhost:3000
