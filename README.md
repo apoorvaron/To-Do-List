@@ -1,5 +1,5 @@
 -  Install Node version 
--  Download zip & unzip it 
+-  Download Zip & unzip it 
 -  Open terminal/cmd and change directory to " /To-Do-List-main"
 -  Run "node app.js"
 -  Open Browser and Hit localhost:3000
