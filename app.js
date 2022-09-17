@@ -21,6 +21,6 @@ app.post("/", function (req, res) {
 
   res.redirect("/");
 });
-app.listen(3000, function () {
+app.listen(process.env.PRT || 3000, function () {
   console.log("Server started on port 3000.");
 });
