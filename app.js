@@ -6,7 +6,7 @@ const data = require(__dirname + "/data.js");
 const app = express();
 // console.log(data);
 // console.log(data());
-var items = ["Buy Food", "Cook Food", "Eat Food"];
+var items = ["Data Structures", "Leetcode Ques", "GFG Ques"];
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.set("view engine", "ejs");
